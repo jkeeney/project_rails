@@ -8,9 +8,8 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :production do
+group :production, :staging do
   gem 'pg'
-  gem 'rails_12factor'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
